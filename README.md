@@ -5,7 +5,7 @@
 ## Usage
 	const filesizer = require('filesizer');
 
-	filesizer({url:'http://unicorn.com/foo.jpg').then((size) => {
+	filesizer({url:'http://unicorn.com/foo.jpg'}).then((size) => {
 		console.log(size);
 	});
 ## API
