@@ -9,8 +9,9 @@
 		console.log(size);
 	});
 ## API
-	download(urlObject)
+	filesizer(urlObject)
 	Returns  a Promise.
+	
 	urlObject
 	type: Object
 
