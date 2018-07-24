@@ -1,14 +1,14 @@
 # filesizer
 
-##Install
+## Install
 	$ npm install filesizer
-##Usage
+## Usage
 	const filesizer = require('filesizer');
 
 	filesizer({url:'http://unicorn.com/foo.jpg').then((size) => {
 		console.log(size);
 	});
-##API
+## API
 	download(urlObject)
 	Returns  a Promise.
 	urlObject
